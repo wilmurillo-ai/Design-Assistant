@@ -1,0 +1,25 @@
+PUBLISH HANDOFF
+
+Display name:
+- 
+
+Slug:
+- 
+
+Internal skill name / slash command:
+- 
+
+Version:
+- 
+
+Tags:
+- 
+
+ClawHub publish command:
+- 
+
+OpenClaw install command:
+- 
+
+OpenClaw verify commands:
+- 

@@ -1,0 +1,117 @@
+{
+  "name": "clawsec-clawhub-checker",
+  "version": "0.0.2",
+  "description": "ClawHub reputation checker for ClawSec suite. Enhances guarded skill installer with VirusTotal Code Insight reputation scores and additional safety checks.",
+  "author": "abutbul",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://clawsec.prompt.security/",
+  "keywords": [
+    "security",
+    "reputation",
+    "clawhub",
+    "virustotal",
+    "skills",
+    "installer",
+    "verification",
+    "defense-in-depth",
+    "openclaw"
+  ],
+  "sbom": {
+    "files": [
+      {
+        "path": "SKILL.md",
+        "required": true,
+        "description": "Skill documentation and usage guide"
+      },
+      {
+        "path": "scripts/enhanced_guarded_install.mjs",
+        "required": true,
+        "description": "Enhanced guarded installer with reputation checks"
+      },
+      {
+        "path": "scripts/check_clawhub_reputation.mjs",
+        "required": true,
+        "description": "ClawHub reputation checking logic"
+      },
+      {
+        "path": "scripts/setup_reputation_hook.mjs",
+        "required": true,
+        "description": "Setup script to enhance existing advisory guardian hook"
+      },
+      {
+        "path": "hooks/clawsec-advisory-guardian/lib/reputation.mjs",
+        "required": true,
+        "description": "Reputation checking module for advisory guardian hook"
+      },
+      {
+        "path": "README.md",
+        "required": false,
+        "description": "Additional documentation and development guide"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "required": true,
+        "description": "Version history and release notes"
+      },
+      {
+        "path": "test/reputation_check.test.mjs",
+        "required": false,
+        "description": "Test suite for reputation checking functionality"
+      },
+      {
+        "path": "test/setup_reputation_hook.test.mjs",
+        "required": false,
+        "description": "Regression coverage for setup preflight disclosure"
+      }
+    ]
+  },
+  "dependencies": {
+    "clawsec-suite": ">=0.0.10"
+  },
+  "integration": {
+    "clawsec-suite": {
+      "enhances": [
+        "guarded_skill_install.mjs",
+        "clawsec-advisory-guardian hook"
+      ],
+      "adds_exit_codes": {
+        "43": "Reputation warning - requires --confirm-reputation"
+      },
+      "adds_arguments": [
+        "--confirm-reputation",
+        "--reputation-threshold"
+      ]
+    }
+  },
+  "openclaw": {
+    "emoji": "🛡️",
+    "category": "security",
+    "requires": {
+      "bins": ["node", "clawhub", "openclaw"]
+    },
+    "runtime": {
+      "required_env": [],
+      "optional_env": [
+        "CLAWHUB_REPUTATION_THRESHOLD"
+      ]
+    },
+    "execution": {
+      "always": false,
+      "persistence": "The setup script rewrites installed clawsec-suite integration files and augments the advisory guardian hook until removed or replaced.",
+      "network_egress": "Reputation checks query ClawHub metadata and may trigger ClawHub install/inspect flows that contact remote services."
+    },
+    "operator_review": [
+      "Requires an installed clawsec-suite checkout because setup rewrites handler.ts and copies helper scripts into the suite.",
+      "Reputation results are heuristic and can produce false positives; installation still requires explicit user confirmation for risky skills.",
+      "Review the modified suite files and restart OpenClaw gateway after setup so the hook changes load intentionally."
+    ],
+    "triggers": [
+      "clawhub reputation",
+      "skill reputation check",
+      "virustotal skill check",
+      "safe skill install",
+      "check skill safety",
+      "skill security score"
+    ]
+  }
+}

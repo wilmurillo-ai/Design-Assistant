@@ -1,0 +1,20 @@
+meddic-b2b-sales-review/
+├── SKILL.md
+└── references/
+    ├── review-opportunity.md
+    ├── review-project.md
+    ├── review-pipeline.md
+    ├── review-loss.md
+    ├── review-1on1.md
+    ├── methods/
+    │   ├── six-step.md
+    │   ├── meddic.md
+    │   └── go-no-go.md
+    ├── scoring/
+    │   ├── stage-win-rates.md
+    │   ├── stage-gate-validation.md
+    │   └── meddic-calibration.md
+    ├── distilled/
+    ├── guidance/
+    ├── decision/
+    └── templates/

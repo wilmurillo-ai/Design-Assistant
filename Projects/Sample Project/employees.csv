@@ -1,0 +1,221 @@
+Employee ID,Full Name,Department,Role,Region,Emails Sent,Calls Made,Meetings Scheduled,Deals Closed,Revenue Generated,Conversion Rate,CSAT Score
+EMP001,James Smith,Sales,Account Executive,North,452,185,24,12,125000,6.4,8.2
+EMP002,Maria Garcia,Sales,Sales Manager,West,310,95,42,18,210000,18.9,9.1
+EMP003,Robert Johnson,Account Management,Account Manager,East,520,210,15,5,85000,2.3,7.8
+EMP004,Linda Williams,Sales,SDR,South,890,650,55,0,0,8.4,7.5
+EMP005,Michael Brown,Customer Success,CSM,North,340,120,38,2,45000,1.6,9.5
+EMP006,Elizabeth Jones,Sales,Account Executive,West,415,145,19,9,98000,6.2,8
+EMP007,David Miller,Sales,SDR,East,920,710,62,0,0,8.7,7.2
+EMP008,Jennifer Davis,Account Management,Account Manager,South,480,195,12,4,72000,2,8.8
+EMP009,William Rodriguez,Sales,Account Executive,North,390,160,22,10,110000,6.2,8.4
+EMP010,Susan Martinez,Customer Success,CSM,West,365,130,45,3,55000,2.3,9.7
+EMP011,Joseph Hernandez,Sales,Sales Manager,East,280,80,35,15,185000,18.7,8.9
+EMP012,Margaret Lopez,Sales,Account Executive,South,430,175,21,11,115000,6.2,8.1
+EMP013,Charles Gonzalez,Sales,SDR,North,875,630,58,0,0,9.2,7.4
+EMP014,Jessica Wilson,Account Management,Account Manager,West,510,225,14,6,92000,2.6,8.5
+EMP015,Christopher Anderson,Sales,Account Executive,East,405,155,20,8,88000,5.1,7.9
+EMP016,Sarah Thomas,Customer Success,CSM,South,350,115,40,2,42000,1.7,9.3
+EMP017,Daniel Taylor,Sales,SDR,North,940,750,65,0,0,8.6,7.1
+EMP018,Karen Moore,Sales,Account Executive,West,425,180,23,13,135000,7.2,8.6
+EMP019,Matthew Jackson,Account Management,Account Manager,East,495,205,16,5,82000,2.4,8.7
+EMP020,Nancy Martin,Sales,Sales Manager,South,320,105,48,20,240000,19.2,9.4
+EMP021,Anthony Lee,Sales,Account Executive,North,380,165,18,7,78000,4.2,7.8
+EMP022,Lisa Perez,Customer Success,CSM,West,375,140,42,4,62000,2.8,9.6
+EMP023,Mark Thompson,Sales,SDR,East,910,690,52,0,0,7.5,7.3
+EMP024,Betty White,Sales,Account Executive,South,445,190,25,14,142000,7.3,8.5
+EMP025,Donald Harris,Account Management,Account Manager,North,530,230,13,7,105000,3,8.9
+EMP026,Sandra Clark,Sales,SDR,West,885,640,60,0,0,9.3,7.6
+EMP027,Paul Lewis,Sales,Account Executive,East,410,150,21,9,95000,6,8.1
+EMP028,Ashley Robinson,Customer Success,CSM,South,355,125,39,2,48000,1.5,9.2
+EMP029,Steven Walker,Sales,Sales Manager,North,305,90,40,17,205000,18.8,9
+EMP030,Kimberly Young,Sales,Account Executive,West,435,170,22,10,108000,5.8,8.3
+EMP031,Andrew Allen,Account Management,Account Manager,East,515,215,15,4,68000,1.8,8.4
+EMP032,Donna King,Sales,SDR,South,930,720,63,0,0,8.7,7.2
+EMP033,Kenneth Wright,Sales,Account Executive,North,420,175,20,11,118000,6.2,8.2
+EMP034,Michelle Scott,Customer Success,CSM,West,360,135,44,3,58000,2.1,9.8
+EMP035,Joshua Torres,Sales,SDR,East,905,680,56,0,0,8.2,7.4
+EMP036,Emily Nguyen,Sales,Account Executive,South,455,195,26,15,155000,7.6,8.7
+EMP037,Kevin Hill,Account Management,Account Manager,North,540,240,11,6,98000,2.5,8.6
+EMP038,Helen Adams,Sales,Sales Manager,West,315,100,45,19,225000,19,9.3
+EMP039,Brian Nelson,Sales,Account Executive,East,395,160,19,8,85000,5,7.9
+EMP040,Deborah Baker,Customer Success,CSM,South,370,145,41,5,75000,3.4,9.5
+EMP041,Edward Hall,Sales,SDR,North,895,660,59,0,0,8.9,7.5
+EMP042,Sharon Rivera,Sales,Account Executive,West,440,185,24,12,128000,6.4,8.4
+EMP043,Ronald Campbell,Account Management,Account Manager,East,505,220,14,5,76000,2.2,8.5
+EMP044,Cynthia Mitchell,Sales,SDR,South,950,760,68,0,0,8.9,7
+EMP045,Jason Carter,Sales,Account Executive,North,415,170,21,10,105000,5.8,8.2
+EMP046,Kathleen Roberts,Customer Success,CSM,West,380,150,43,4,68000,2.6,9.6
+EMP047,Jeffrey Gomez,Sales,Sales Manager,East,325,110,50,22,260000,20,9.5
+EMP048,Amy Phillips,Sales,Account Executive,South,450,200,27,16,165000,8,8.8
+EMP049,Ryan Evans,Account Management,Account Manager,North,525,235,12,8,115000,3.4,9
+EMP050,Shirley Turner,Sales,SDR,West,915,700,61,0,0,8.7,7.3
+EMP051,Gary Diaz,Sales,Account Executive,East,400,155,20,9,92000,5.8,8
+EMP052,Angela Parker,Customer Success,CSM,South,345,110,37,2,40000,1.8,9.4
+EMP053,Nicholas Cruz,Sales,SDR,North,880,645,57,0,0,8.8,7.6
+EMP054,Anna Edwards,Sales,Account Executive,West,430,175,23,11,112000,6.2,8.3
+EMP055,Eric Collins,Account Management,Account Manager,East,490,195,17,5,80000,2.5,8.8
+EMP056,Ruth Reyes,Sales,Sales Manager,South,330,115,52,21,250000,19.5,9.6
+EMP057,Stephen Stewart,Sales,Account Executive,North,385,165,19,7,82000,4.2,7.9
+EMP058,Brenda Morris,Customer Success,CSM,West,390,155,46,5,80000,3.2,9.7
+EMP059,Jonathan Morales,Sales,SDR,East,925,730,64,0,0,8.7,7.2
+EMP060,Virginia Murphy,Sales,Account Executive,South,460,205,28,17,175000,8.2,8.9
+EMP061,Larry Cook,Account Management,Account Manager,North,550,250,10,7,110000,2.8,8.7
+EMP062,Pamela Rogers,Sales,SDR,West,900,670,58,0,0,8.6,7.4
+EMP063,Justin Gutierrez,Sales,Account Executive,East,410,160,21,10,102000,6.2,8.1
+EMP064,Katherine Ortiz,Customer Success,CSM,South,360,130,42,4,65000,3,9.5
+EMP065,Scott Morgan,Sales,Sales Manager,North,295,85,38,16,195000,18.5,8.8
+EMP066,Nicole Cooper,Sales,Account Executive,West,445,180,24,13,138000,7.2,8.5
+EMP067,Brandon Peterson,Account Management,Account Manager,East,510,210,16,4,70000,1.9,8.4
+EMP068,Christine Bailey,Sales,SDR,South,935,740,66,0,0,8.9,7.1
+EMP069,Benjamin Reed,Sales,Account Executive,North,425,180,22,11,120000,6.1,8.2
+EMP070,Catherine Kelly,Customer Success,CSM,West,375,145,45,4,72000,2.7,9.8
+EMP071,Samuel Howard,Sales,SDR,East,910,695,59,0,0,8.4,7.4
+EMP072,Debra Ramos,Sales,Account Executive,South,470,210,29,18,185000,8.5,9
+EMP073,Gregory Kim,Account Management,Account Manager,North,545,245,11,9,130000,3.6,9.1
+EMP074,Janet Cox,Sales,Sales Manager,West,335,120,55,23,280000,20.5,9.7
+EMP075,Alexander Ward,Sales,Account Executive,East,405,165,20,8,86000,4.8,7.9
+EMP076,Carolyn Richardson,Customer Success,CSM,South,355,120,40,3,52000,2.5,9.4
+EMP077,Frank Watson,Sales,SDR,North,890,655,60,0,0,9.1,7.5
+EMP078,Maria Brooks,Sales,Account Executive,West,440,190,25,14,145000,7.3,8.6
+EMP079,Raymond Chao,Account Management,Account Manager,East,495,200,18,6,88000,3,8.9
+EMP080,Heather Wood,Sales,SDR,South,945,755,67,0,0,8.8,7
+EMP081,Jack James,Sales,Account Executive,North,390,170,19,9,95000,5.2,8
+EMP082,Diane Bennett,Customer Success,CSM,West,385,160,47,6,85000,3.7,9.7
+EMP083,Dennis Gray,Sales,Sales Manager,East,310,95,42,18,215000,19.2,9.1
+EMP084,Julie Mendoza,Sales,Account Executive,South,465,205,27,15,160000,7.3,8.7
+EMP085,Jerry Ruiz,Account Management,Account Manager,North,535,240,12,8,122000,3.3,9
+EMP086,Joyce Hughes,Sales,SDR,West,905,685,57,0,0,8.3,7.4
+EMP087,Tyler Price,Sales,Account Executive,East,415,175,22,11,118000,6.2,8.2
+EMP088,Victoria Alvarez,Customer Success,CSM,South,365,135,43,4,68000,2.9,9.6
+EMP089,Henry Castillo,Sales,SDR,North,920,715,63,0,0,8.7,7.2
+EMP090,Olivia Sanders,Sales,Account Executive,West,450,200,26,14,148000,7,8.5
+EMP091,Douglas Patel,Account Management,Account Manager,East,520,225,15,5,78000,2.2,8.6
+EMP092,Megan Myers,Sales,Sales Manager,South,340,125,58,24,300000,20.6,9.8
+EMP093,Peter Long,Sales,Account Executive,North,400,175,20,10,108000,5.7,8.1
+EMP094,Cheryl Ross,Customer Success,CSM,West,380,150,44,5,78000,3.3,9.7
+EMP095,Walter Foster,Sales,SDR,East,885,650,58,0,0,8.7,7.6
+EMP096,Evelyn Jimenez,Sales,Account Executive,South,475,215,30,19,195000,8.8,9.1
+EMP097,Harold Porter,Account Management,Account Manager,North,555,255,10,10,145000,3.9,9.2
+EMP098,Alice Hunter,Sales,SDR,West,930,730,65,0,0,8.9,7.2
+EMP099,Patrick Simmons,Sales,Account Executive,East,420,180,23,12,125000,6.6,8.3
+EMP100,Jeanette Graham,Customer Success,CSM,South,370,140,41,4,62000,2.8,9.5
+EMP101,Arthur Reynolds,Sales,Sales Manager,North,300,90,40,17,210000,18.8,9.2
+EMP102,Teresa Fisher,Sales,Account Executive,West,460,195,27,16,168000,8.2,8.8
+EMP103,Roger Jordan,Account Management,Account Manager,East,500,205,17,6,90000,2.9,8.8
+EMP104,Doris Hamilton,Sales,SDR,South,940,750,66,0,0,8.7,7.1
+EMP105,Lawrence Ford,Sales,Account Executive,North,405,185,21,9,92000,4.8,7.9
+EMP106,Julia Graham,Customer Success,CSM,West,395,165,48,7,95000,4.2,9.8
+EMP107,Terry Wallace,Sales,SDR,East,915,705,60,0,0,8.5,7.3
+EMP108,Lori Griffin,Sales,Account Executive,South,480,220,31,20,210000,9,9.2
+EMP109,Sean West,Account Management,Account Manager,North,560,260,9,11,160000,4.2,9.3
+EMP110,Mildred Cole,Sales,Sales Manager,West,345,130,60,25,320000,20.8,9.9
+EMP111,Albert Hayes,Sales,Account Executive,East,410,180,22,11,115000,6.1,8.2
+EMP112,Katherine Meyer,Customer Success,CSM,South,360,135,42,4,68000,2.9,9.4
+EMP113,Willie Ortiz,Sales,SDR,North,895,665,61,0,0,9.1,7.5
+EMP114,Peggy Palmer,Sales,Account Executive,West,455,200,26,15,155000,7.5,8.7
+EMP115,Wayne Bryant,Account Management,Account Manager,East,510,215,16,5,82000,2.3,8.7
+EMP116,Theresa Webb,Sales,SDR,South,955,770,69,0,0,9,7
+EMP117,Billy Weaver,Sales,Account Executive,North,425,190,23,12,128000,6.3,8.4
+EMP118,Tammy Ferguson,Customer Success,CSM,West,400,170,49,8,110000,4.7,9.9
+EMP119,Bruce Mason,Sales,Sales Manager,East,320,105,48,20,245000,20.1,9.4
+EMP120,Beverly Boyd,Sales,Account Executive,South,490,225,32,21,225000,9.3,9.3
+EMP121,Eugene Rice,Account Management,Account Manager,North,570,270,8,12,175000,4.4,9.4
+EMP122,Denise Graham,Sales,SDR,West,925,720,64,0,0,8.8,7.3
+EMP123,Wayne Sullivan,Sales,Account Executive,East,415,185,21,10,105000,5.4,8.1
+EMP124,Marilyn Cruz,Customer Success,CSM,South,375,145,43,5,75000,3.4,9.6
+EMP125,Roy Alexander,Sales,SDR,North,910,690,62,0,0,9,7.4
+EMP126,Lois Russell,Sales,Account Executive,West,470,210,28,17,178000,8,8.9
+EMP127,Alan Griffin,Account Management,Account Manager,East,520,220,15,6,95000,2.7,8.8
+EMP128,Robin Diaz,Sales,Sales Manager,South,355,140,62,26,340000,20.9,9.9
+EMP129,Louis Hayes,Sales,Account Executive,North,430,195,24,13,138000,6.6,8.5
+EMP130,Diane Myers,Customer Success,CSM,West,410,180,51,9,125000,5,9.9
+EMP131,Bobby Ford,Sales,SDR,East,940,755,68,0,0,8.9,7.1
+EMP132,Julia Hamilton,Sales,Account Executive,South,500,230,33,22,240000,9.5,9.4
+EMP133,Russell Graham,Account Management,Account Manager,North,580,280,7,13,190000,4.6,9.5
+EMP134,Rose Ortiz,Sales,SDR,West,935,745,67,0,0,8.9,7.2
+EMP135,Victor Palmer,Sales,Account Executive,East,420,190,22,11,118000,5.7,8.2
+EMP136,Theresa Bryant,Customer Success,CSM,South,385,155,45,6,90000,3.8,9.7
+EMP137,Martin Webb,Sales,Sales Manager,North,310,100,44,19,235000,19.3,9.3
+EMP138,Alice Weaver,Sales,Account Executive,West,480,215,29,18,190000,8.3,9
+EMP139,Ernest Ferguson,Account Management,Account Manager,East,530,230,14,7,110000,3,8.9
+EMP140,Marie Mason,Sales,SDR,South,965,785,71,0,0,9.1,6.9
+EMP141,Philip Boyd,Sales,Account Executive,North,440,205,25,14,148000,6.8,8.6
+EMP142,Gloria Rice,Customer Success,CSM,West,420,190,53,10,140000,5.2,9.9
+EMP143,Steve Graham,Sales,SDR,East,950,775,70,0,0,9,7
+EMP144,Diana Sullivan,Sales,Account Executive,South,510,235,34,23,255000,9.7,9.5
+EMP145,Howard Cruz,Account Management,Account Manager,North,590,290,6,14,205000,4.8,9.6
+EMP146,Anne Alexander,Sales,Sales Manager,West,365,150,65,27,360000,21,9.9
+EMP147,Ralph Russell,Sales,Account Executive,East,435,200,23,12,125000,6,8.3
+EMP148,Kathryn Griffin,Customer Success,CSM,South,400,170,47,7,105000,4.1,9.8
+EMP149,Albert Diaz,Sales,SDR,North,920,705,65,0,0,9.2,7.3
+EMP150,Joan Hayes,Sales,Account Executive,West,490,225,30,19,205000,8.4,9.1
+EMP151,Willie Myers,Account Management,Account Manager,East,540,240,13,8,125000,3.3,9
+EMP152,Lillian Ford,Sales,SDR,South,975,800,73,0,0,9.2,6.8
+EMP153,Joe Hamilton,Sales,Account Executive,North,450,215,26,15,158000,6.9,8.7
+EMP154,Lucille Graham,Customer Success,CSM,West,430,200,55,11,155000,5.5,9.9
+EMP155,Justin Ortiz,Sales,Sales Manager,East,330,115,52,21,265000,20.2,9.5
+EMP156,Doris Palmer,Sales,Account Executive,South,520,245,35,24,270000,9.8,9.6
+EMP157,Carl Bryant,Account Management,Account Manager,North,600,300,5,15,220000,5,9.7
+EMP158,Julia Webb,Sales,SDR,West,960,790,72,0,0,9.1,6.9
+EMP159,Arthur Weaver,Sales,Account Executive,East,445,210,24,13,135000,6.1,8.4
+EMP160,Florence Ferguson,Customer Success,CSM,South,415,185,49,8,120000,4.3,9.8
+EMP161,Lawrence Mason,Sales,SDR,North,945,765,69,0,0,9.3,7.1
+EMP162,Mildred Boyd,Sales,Account Executive,West,500,235,31,20,220000,8.5,9.2
+EMP163,Ryan Rice,Account Management,Account Manager,East,550,250,12,9,140000,3.6,9.1
+EMP164,Anna Graham,Sales,Sales Manager,South,375,160,68,28,380000,21.1,9.9
+EMP165,Gary Sullivan,Sales,Account Executive,North,460,225,27,16,168000,7.1,8.8
+EMP166,Angela Cruz,Customer Success,CSM,West,440,210,57,12,170000,5.7,9.9
+EMP167,Nicholas Alexander,Sales,SDR,East,970,810,75,0,0,9.2,6.7
+EMP168,Ruth Russell,Sales,Account Executive,South,530,255,36,25,285000,9.9,9.7
+EMP169,Eric Griffin,Account Management,Account Manager,North,610,310,4,16,235000,5.1,9.8
+EMP170,Virginia Diaz,Sales,SDR,West,980,825,77,0,0,9.3,6.6
+EMP171,Stephen Hayes,Sales,Account Executive,East,455,220,25,14,145000,6.3,8.5
+EMP172,Brenda Myers,Customer Success,CSM,South,425,195,51,9,135000,4.6,9.8
+EMP173,Jonathan Ford,Sales,Sales Manager,North,320,110,48,20,250000,20.1,9.4
+EMP174,Pamela Hamilton,Sales,Account Executive,West,510,245,32,21,235000,8.6,9.3
+EMP175,Justin Graham,Account Management,Account Manager,East,560,260,11,10,155000,3.8,9.2
+EMP176,Katherine Ortiz,Sales,SDR,South,990,840,79,0,0,9.4,6.5
+EMP177,Scott Palmer,Sales,Account Executive,North,470,235,28,17,178000,7.2,8.9
+EMP178,Nicole Bryant,Customer Success,CSM,West,450,220,59,13,185000,5.9,9.9
+EMP179,Brandon Webb,Sales,SDR,East,985,830,78,0,0,9.4,6.6
+EMP180,Christine Weaver,Sales,Account Executive,South,540,265,37,26,300000,10,9.8
+EMP181,Benjamin Ferguson,Account Management,Account Manager,North,620,320,3,17,250000,5.3,9.9
+EMP182,Catherine Mason,Sales,Sales Manager,West,385,170,71,29,400000,21.2,9.9
+EMP183,Samuel Boyd,Sales,Account Executive,East,465,230,26,15,155000,6.5,8.6
+EMP184,Debra Rice,Customer Success,CSM,South,435,205,53,10,150000,4.8,9.8
+EMP185,Gregory Graham,Sales,SDR,North,995,850,81,0,0,9.5,6.4
+EMP186,Janet Sullivan,Sales,Account Executive,West,520,255,33,22,250000,8.7,9.4
+EMP187,Alexander Cruz,Account Management,Account Manager,East,570,270,10,11,170000,4,9.3
+EMP188,Carolyn Alexander,Sales,SDR,South,1000,860,83,0,0,9.5,6.3
+EMP189,Frank Russell,Sales,Account Executive,North,480,245,29,18,188000,7.4,9
+EMP190,Maria Griffin,Customer Success,CSM,West,460,230,61,14,200000,6.1,9.9
+EMP191,Raymond Diaz,Sales,Sales Manager,East,340,125,56,23,285000,20.6,9.6
+EMP192,Heather Hayes,Sales,Account Executive,South,550,275,38,27,315000,10.1,9.9
+EMP193,Jack Myers,Account Management,Account Manager,North,630,330,2,18,265000,5.5,9.9
+EMP194,Diane Ford,Sales,SDR,West,1010,875,85,0,0,9.6,6.2
+EMP195,Dennis Hamilton,Sales,Account Executive,East,475,240,27,16,165000,6.7,8.7
+EMP196,Julie Graham,Customer Success,CSM,South,445,215,55,11,165000,5.1,9.8
+EMP197,Jerry Ortiz,Sales,SDR,North,1020,890,87,0,0,9.6,6.1
+EMP198,Joyce Palmer,Sales,Account Executive,West,530,265,34,23,265000,8.8,9.5
+EMP199,Tyler Bryant,Account Management,Account Manager,East,580,280,9,12,185000,4.2,9.4
+EMP200,Victoria Webb,Sales,Sales Manager,South,395,180,74,30,420000,21.3,9.9
+EMP201,Henry Weaver,Sales,Account Executive,North,490,255,30,19,198000,7.6,9.1
+EMP202,Olivia Ferguson,Customer Success,CSM,West,470,240,63,15,215000,6.3,9.9
+EMP203,Douglas Mason,Sales,SDR,East,1030,905,89,0,0,9.7,6
+EMP204,Megan Boyd,Sales,Account Executive,South,560,285,39,28,330000,10.2,9.9
+EMP205,Peter Rice,Account Management,Account Manager,North,640,340,1,19,280000,5.7,9.9
+EMP206,Cheryl Graham,Sales,SDR,West,1040,920,91,0,0,9.7,5.9
+EMP207,Walter Sullivan,Sales,Account Executive,East,485,250,28,17,175000,6.9,8.8
+EMP208,Evelyn Cruz,Customer Success,CSM,South,455,225,57,12,180000,5.4,9.8
+EMP209,Harold Alexander,Sales,Sales Manager,North,330,120,52,21,265000,20.4,9.5
+EMP210,Alice Russell,Sales,Account Executive,West,540,275,35,24,280000,8.9,9.6
+EMP211,Patrick Griffin,Account Management,Account Manager,East,590,290,8,13,200000,4.4,9.5
+EMP212,Jeanette Diaz,Sales,SDR,South,1050,935,93,0,0,9.8,5.8
+EMP213,Arthur Hayes,Sales,Account Executive,North,500,265,31,20,208000,7.8,9.2
+EMP214,Teresa Myers,Customer Success,CSM,West,480,250,65,16,230000,6.5,9.9
+EMP215,Roger Ford,Sales,SDR,East,1060,950,95,0,0,9.8,5.7
+EMP216,Doris Hamilton,Sales,Account Executive,South,570,295,40,29,345000,10.3,9.9
+EMP217,Lawrence Graham,Account Management,Account Manager,North,650,350,0,20,300000,6,9.9
+EMP218,Julia Ortiz,Sales,Sales Manager,West,405,190,77,31,440000,21.4,9.9
+EMP219,Terry Palmer,Sales,Account Executive,East,495,260,29,18,185000,7.1,8.9
+EMP220,Lori Bryant,Customer Success,CSM,South,465,235,59,13,195000,5.7,9.8

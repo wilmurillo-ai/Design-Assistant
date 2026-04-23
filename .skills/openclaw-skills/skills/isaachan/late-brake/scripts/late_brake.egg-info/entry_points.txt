@@ -1,0 +1,2 @@
+[console_scripts]
+late-brake = late_brake.cli:main

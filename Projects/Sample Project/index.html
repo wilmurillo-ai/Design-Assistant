@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Dashboard | MVP</title>
+    <meta name="description" content="A high-level overview of global KPIs and Revenue across all departments.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Phosphor Icons for modern iconography -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon"><i class="ph-bold ph-chart-line-up"></i></div>
+            Nexus UI
+        </div>
+        
+        <ul class="nav-links">
+            <li>
+                <a href="index.html" class="nav-link active">
+                    <i class="ph ph-squares-four"></i> Overview
+                </a>
+            </li>
+            <li>
+                <a href="employees.html" class="nav-link">
+                    <i class="ph ph-users"></i> Employees
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="header-actions">
+            <div>
+                <h1>Dashboard Overview</h1>
+                <p class="subtitle">Global KPIs and Revenue generated in the current quarter.</p>
+            </div>
+            <!-- Global Date Filter for MVP aesthetic -->
+            <select class="select-filter" aria-label="Select Quarter">
+                <option>Q3 2026 (Current)</option>
+                <option>Q2 2026</option>
+                <option>Q1 2026</option>
+            </select>
+        </div>
+
+        <!-- KPI Grid -->
+        <div class="kpi-grid">
+            <div class="glass-panel kpi-card">
+                <div class="kpi-title"><i class="ph ph-currency-dollar"></i> Total Revenue</div>
+                <div class="kpi-value">$2.45M</div>
+                <div class="kpi-trend trend-up"><i class="ph-bold ph-trend-up"></i> +14.2% vs last quarter</div>
+            </div>
+            
+            <div class="glass-panel kpi-card">
+                <div class="kpi-title"><i class="ph ph-handshake"></i> Deals Closed</div>
+                <div class="kpi-value">342</div>
+                <div class="kpi-trend trend-up"><i class="ph-bold ph-trend-up"></i> +8.4% vs last quarter</div>
+            </div>
+
+            <div class="glass-panel kpi-card">
+                <div class="kpi-title"><i class="ph ph-star"></i> Avg CSAT Score</div>
+                <div class="kpi-value">8.9</div>
+                <div class="kpi-trend trend-up"><i class="ph-bold ph-trend-up"></i> +0.3 vs last quarter</div>
+            </div>
+
+            <div class="glass-panel kpi-card">
+                <div class="kpi-title"><i class="ph ph-phone-call"></i> Total Calls Made</div>
+                <div class="kpi-value">24,500</div>
+                <div class="kpi-trend trend-down"><i class="ph-bold ph-trend-down"></i> -2.1% vs last quarter</div>
+            </div>
+        </div>
+
+        <!-- Data Visualizations -->
+        <div class="charts-grid">
+            <div class="glass-panel chart-container">
+                <h2>Revenue by Region</h2>
+                <div class="mock-chart">
+                    <div class="mock-bar" style="height: 60%;" title="North"></div>
+                    <div class="mock-bar" style="height: 45%;" title="South"></div>
+                    <div class="mock-bar" style="height: 85%;" title="East"></div>
+                    <div class="mock-bar" style="height: 70%;" title="West"></div>
+                    <div class="mock-bar" style="height: 95%;" title="EMEA"></div>
+                    <div class="mock-bar" style="height: 55%;" title="APAC"></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-top: 1rem; color: var(--text-tertiary); font-size: 0.85rem;">
+                    <span>North</span>
+                    <span>South</span>
+                    <span>East</span>
+                    <span>West</span>
+                    <span>EMEA</span>
+                    <span>APAC</span>
+                </div>
+            </div>
+
+            <div class="glass-panel chart-container">
+                <h2>Revenue Breakdown</h2>
+                <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem;">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span style="font-size: 0.9rem;">Sales (Net New)</span>
+                            <span style="font-weight: 600;">65%</span>
+                        </div>
+                        <div style="height: 8px; background: rgba(0,0,0,0.3); border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 65%; background: var(--accent-primary);"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span style="font-size: 0.9rem;">Account Mgmt (Upsells)</span>
+                            <span style="font-weight: 600;">25%</span>
+                        </div>
+                        <div style="height: 8px; background: rgba(0,0,0,0.3); border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 25%; background: var(--success);"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span style="font-size: 0.9rem;">Customer Success (Renewals)</span>
+                            <span style="font-weight: 600;">10%</span>
+                        </div>
+                        <div style="height: 8px; background: rgba(0,0,0,0.3); border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 10%; background: var(--warning);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
